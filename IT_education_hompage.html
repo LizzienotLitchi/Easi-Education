@@ -1,0 +1,1489 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Easi IT education</title>
+
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="node_modules/swiper/swiper-bundle.css">
+    <link rel="stylesheet" href="homepage.css">
+</head>
+
+<style>
+    /*.col-md-2,.col-md-10,.col,.col-1,.col-2,.col-3,.col-4,.col-sm-4,.col-md,.col-sm-12,.col-lg-8,.col-lg-4,.col-md-6,.col-12,.col-sm-6,.col-lg-3{*/
+    /*    background-color: whitesmoke;*/
+    /*    padding: 10px;*/
+    /*    border: 1px solid #06357a;*/
+    /*}*/
+</style>
+
+<body>
+    <!--navbar-start-->
+    <nav>
+        <div class="container">
+            <div class="row">
+                <div class="col shadow-sm bg-nav">
+                    <nav class="navbar navbar-expand-lg navbar-light p-1">
+                        <div class="container-fluid">
+                            <a class="navbar-brand navbar-toggler border-0" href="#">
+                                <img src="images/logo.png" class="img-fluid" style="max-width: 90px" alt="Easi-IT">
+                            </a>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="#">
+                                            <img src="images/logo2.png" class="img-fluid" style="max-height:50px;max-width: 70px" alt="Easi-IT">
+                                        </a>
+                                    </li>
+                                    <li class="nav-item ms-1">
+                                        <a class="nav-link" href="#"> Login</a>
+                                    </li>
+                                    <li class="nav-item ms-1">
+                                        <a class="nav-link" href="#"> Sign up</a>
+                                    </li>
+                                    <li class="nav-item dropdown ms-1">
+                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            Training Model
+                                        </a>
+                                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                            <li><a class="dropdown-item" href="#">Offline Training</a></li>
+                                            <li><a class="dropdown-item" href="#">Online Training</a></li>
+                                            <li><hr class="dropdown-divider"></li>
+                                            <li><a class="dropdown-item" href="#">Intern Training</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item dropdown ms-3">
+                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            Career Direction
+                                        </a>
+                                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                            <li><a class="dropdown-item" href="#">Web Full Stack Developer</a></li>
+                                            <li><hr class="dropdown-divider"></li>
+                                            <li><a class="dropdown-item" href="#">Java Full Stack Developer</a></li>
+                                            <li><a class="dropdown-item" href="#">PHP Full Stack Developer</a></li>
+                                            <li><a class="dropdown-item" href="#">Web Frontend Developer</a></li>
+                                            <li><hr class="dropdown-divider"></li>
+                                            <li><a class="dropdown-item" href="#">UI Designer + Product Manager</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link disabled"> Full Stack Course<i class="mark text-danger ms-2">$998</i><s class="ms-2">$1999</s></a>
+                                    </li>
+                                </ul>
+                                <div class="d-flex contact dropdown">
+                                    <a class="dropdown-toggle mb-1" style="color: black"  id="navbarDropdown3"  data-bs-toggle="dropdown" aria-expanded="false">
+                                        <i class="img-fluid"><img src="images/wechatlogo.png" style="max-width: 20px" alt=""></i>
+                                        Contact Us
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <li><a class="dropdown-item" href="#">WeChat: Larry001</a></li>
+                                        <li><a class="dropdown-item" href="#">Phone: 0415150519</a></li>
+                                        <li><hr class="dropdown-divider"></li>
+                                        <li><a class="dropdown-item" href="#">
+                                            <img src="images/wechat_barcode.jpg" class="img-fluid" style="max-width: 100px" alt="">
+                                        </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!--navbar-end-->
+
+    <!--header-start-->
+    <header class="mt-2 d-none d-lg-block">
+        <div class="container">
+            <div class="row py-4 align-items-center">
+                <div class="col-3">
+                    <a href="http://easieducbr.com.au/"> <img class="img-fluid" src="images/logo.png" style="max-width: 120px; height: auto; " alt="Easi IT Education"></a>
+                </div>
+                <div class="col-4 pt-4 d-flex justify-content-end pe-5">
+                    <blockquote class="blockquote text-center">
+                        <p class="fst-italic fw-bold">Easi Make Life Easier </p>
+                    </blockquote>
+                </div>
+                <div class="col-4 offset-1 ps-5 pb-2">
+                    <div class="text-right d-flex justify-content-end pt-1">
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-success dropdown-toggle dropdown text-white"  role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Study Community
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Web Full Stack</a></li>
+                                <li><a class="dropdown-item" href="#">PHP Full Stack</a></li>
+                                <li><a class="dropdown-item" href="#">Python Full Stack</a></li>
+                                <li><a class="dropdown-item" href="#">Linux Full Stack</a></li>
+                                <li><a class="dropdown-item" href="#">Golang Full Stack</a></li>
+                                <li><a class="dropdown-item" href="#">Data Analysis Course</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="#">HomePage</a></li>
+                            </ul>
+                        </div>
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-info dropdown-toggle dropdown text-white"  role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Other Courses
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">PTE English</a></li>
+                                <li><a class="dropdown-item" href="#">Anu Course Eduction</a></li>
+                                <li><a class="dropdown-item" href="#">Accounting Training</a></li>
+                                <li><a class="dropdown-item" href="#">Immigration Service</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="#">HomePage</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <blockquote class="blockquote text-center d-lg-none pt-4 mb-2 bg-dark text-white">
+        <p class="fst-italic fw-bold">Easi Make Life Easier </p>
+    </blockquote>
+    <!--header-end-->
+
+    <!--carousel-device-start-->
+    <section class="mt-2 d-lg-none">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div id="carousel-device" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carousel-device" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carousel-device" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carousel-device" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            <button type="button" data-bs-target="#carousel-device" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                            <button type="button" data-bs-target="#carousel-device" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                            <button type="button" data-bs-target="#carousel-device" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="images/carousel/1.jpg" style="max-height: 350px" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Web Full Stack Course</h5>
+                                    <p> The best IT training in Canberra, only $998 Now!</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/carousel/2.jpg" style="max-height: 350px" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Web Full Stack Course</h5>
+                                    <p> All Programming Language Study Package </p>
+                                </div>
+                            </div>
+                            <div class="carousel-item ">
+                                <img src="images/carousel/3.jpg" style="max-height: 350px" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5> Professional Education Model </h5>
+                                    <p> Both online and offline education model</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/carousel/4.jpg" style="max-height: 350px" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5> Teacher Eminem</h5>
+                                    <p> Over 100+ project, current Supervisor in Tencent</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/carousel/5.jpg" style="max-height: 350px" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5> Teacher Jay</h5>
+                                    <p> Famous product manager in Google, deeply know customer need</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/carousel/6.jpg" style="max-height: 350px" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5> High Quality Internship</h5>
+                                    <p> The whole project experience for you</p>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carousel-device" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carousel-device" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!--    carousel- PC-->
+    <section id="player" class="mt-2 d-none d-lg-block">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="carousel" id="carousel_pc">
+                        <a class="carousel-item active" href="#" data-color="#6a296e" target="_blank"><img src="images/carousel/1.jpg" class="d-block w-100" alt=""> </a>
+                        <a class="carousel-item" href="#" data-color="#5600d3" target="_blank"><img src="images/carousel/2.jpg" class="d-block w-100" alt=""> </a>
+                        <a class="carousel-item" href="#" data-color="#0b0f3e" target="_blank"><img src="images/carousel/3.jpg" class="d-block w-100" alt=""> </a>
+                        <a class="carousel-item" href="#" data-color="#100e64" target="_blank"><img src="images/carousel/4.jpg" class="d-block w-100" alt=""> </a>
+                        <a class="carousel-item" href="#" data-color="#4477e2" target="_blank"><img src="images/carousel/5.jpg" class="d-block w-100" alt=""> </a>
+                        <a class="carousel-item" href="#" data-color="#110e45" target="_blank"><img src="images/carousel/6.jpg" class="d-block w-100" alt=""> </a>
+                    </div>
+                    <div class="card w-25 ms-auto shadow border-0 card-style bg-dark bg-opacity-25 mt-5 py-3" style="">
+                        <div id="list" class="list-group ">
+                            <a href="#" class="list-group-item text-truncate border-0 bg-transparent text-white-50 text-decoration-none">The best full stack training in Canberra</a>
+                            <a href="#" class="list-group-item text-truncate border-0 bg-transparent text-white-50 text-decoration-none">You have no reason not to choose us</a>
+                            <a href="#" class="list-group-item text-truncate border-0 bg-transparent text-white-50 text-decoration-none">Our courses are most professional</a>
+                            <a href="#" class="list-group-item text-truncate border-0 bg-transparent text-white-50 text-decoration-none">Make study plan base on individuals</a>
+                            <a href="#" class="list-group-item text-truncate border-0 bg-transparent text-white-50 text-decoration-none">Our goal is that training more and more IT talents</a>
+                            <a href="#" class="list-group-item text-truncate border-0 bg-transparent text-white-50 text-decoration-none">Studying knowledge during your intern period</a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--carousel-end-->
+
+    <!---gain-start-->
+    <section class="mt-4">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div>
+                        <h4 class="d-inline-block">Your Gain</h4>
+                        <small class="text-muted ps-2">Master a skill to make progress</small>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4 col-md-4 col-lg p-1 me-1 gain_style">
+                    <div class="gain_style_1 text-center w-100 h-100 rounded-3">
+                        <a class="d-inline-block text-white text-decoration-none" href="">
+                            <h5>Internship Position</h5>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-4 col-md-4 col-lg p-1 me-1 gain_style">
+                    <div class="gain_style_2 text-center w-100 h-100 rounded-3">
+                        <a class="d-inline-block text-white text-decoration-none"  href="">
+                            <h5>Work Experience</h5>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-4 col-md-4 col-lg p-1 me-1  gain_style">
+                    <div class="gain_style_3 text-center w-100 h-100 rounded-3">
+                        <a class="d-inline-block text-white text-decoration-none" href="">
+                            <h5>Full Stack Skill</h5>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-4 col-md-4 col-lg p-1 me-1  gain_style">
+                    <div class="gain_style_4 text-center w-100 h-100 rounded-3">
+                        <a class="d-inline-block text-white text-decoration-none" href="">
+                            <h5>Business Project</h5>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-4 col-md-4 col-lg p-1 me-1  gain_style">
+                    <div class="gain_style_5 text-center w-100 h-100 rounded-3">
+                        <a class="d-inline-block text-white text-decoration-none" href="">
+                            <h5>Social Network</h5>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-4 col-md-4 col-lg p-1 gain_style">
+                    <div class="gain_style_6 text-center w-100 h-100 rounded-3">
+                        <a class="d-inline-block text-white text-decoration-none" href="">
+                            <h5>Expected Work</h5>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!---gain-end-->
+
+    <!---follow_us-start-->
+<!--    <section class="mt-4">-->
+<!--        <div class="container">-->
+<!--            <div class="row">-->
+<!--                <div class="col">-->
+<!--                    <div>-->
+<!--                        <h4 class="d-inline-block"> Follow Us</h4>-->
+<!--                        <small class="text-muted ps-2"> we have professional training model, and outstanding IT talents</small>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--            <div class="row">-->
+<!--                <div class="col-sm-12 col-lg-8">-->
+
+
+<!--                </div>-->
+<!--                <div class="col-sm-12 col-lg-4"></div>-->
+<!--            </div>-->
+<!--        </div>-->
+
+<!--    </section>-->
+    <!---follow_us-end-->
+
+    <!---class_training-start-->
+    <section class="mt-4 ">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div>
+                        <h4 class="d-inline-block"> Training Class</h4>
+                    </div>
+                </div>
+            </div>
+            <!--header-->
+            <div class="row d-none d-lg-flex">
+                <div class="col-2 pe-1">
+                    <div class="text-white d-flex flex-row bg-primary">
+                        <div class="me-auto pt-3 pb-2 ps-4"><h5><a class="text-white text-decoration-none" href="#">Subjects</a></h5></div>
+                    </div>
+                </div>
+                <div class="col-2 ps-0 pe-1">
+                    <div class="text-white d-flex flex-row bg-primary">
+                        <div class="me-auto pt-3 pb-2 ps-4"><h5><a class="text-white text-decoration-none" href="#">Courses System</a></h5></div>
+                    </div>
+                </div>
+                <div class="col-1 ps-0 pe-1">
+                    <div class="text-white d-flex flex-row bg-primary">
+                        <div class="me-auto pt-3 pb-2 ps-4"><h5><a class="text-white text-decoration-none" href="#">Period</a></h5></div>
+                    </div>
+                </div>
+                <div class="col-3 ps-0 pe-1">
+                    <div class="text-white d-flex flex-row bg-primary">
+                        <div class="me-auto pt-3 pb-2 ps-4"><h5><a class="text-white text-decoration-none" href="#">Trial Experience</a></h5></div>
+                        <div class="pt-2 pe-4"><a href="" class="bg-white bg-opacity-25 mt-1 btn border-white btn-sm text-white">Apply to try</a></div>
+                    </div>
+                </div>
+                <div class="col-4 ps-1">
+                    <div class="text-white d-flex flex-row bg-primary">
+                        <div class="me-auto pt-3 pb-2 ps-4"><h5><a class="text-white text-decoration-none" href="#">Classes Schedule</a></h5></div>
+                        <div class="pt-2 pe-4"><a href="" class="bg-white bg-opacity-25 mt-1 btn border-white btn-sm text-white">First month for free</a></div>
+                    </div>
+                </div>
+            </div>
+            <!--header-->
+            <!--  content-->
+<!--            web develop class start-->
+            <div class="row mb-2">
+                <div class="col-lg-2 col-12 pe-1 ">
+                    <a href="#" class="d-block border-bottom border-light text-center bg-light w-100">
+                        <figure class="figure mt-1">
+                            <img src="images/training/webqz.png" class="figure-img" style="max-width: 150px" alt="">
+                            <figcaption class="figure-caption text-center text-danger">
+                                <h6> Web Full Stack Developer</h6>
+                                <h6> Career Hub</h6>
+                            </figcaption>
+                        </figure>
+                    </a>
+                </div>
+                <div class="col-lg-2 col-12 ps-0 pe-1 text-md-center">
+                    <div class="d-flex align-items-center py-3 pb-3 bg-light w-100">
+                        <div class="flex-shrink-0">
+                            <img class="mx-2" src="images/training/wline.png" style="max-width: 70px" alt="...">
+                        </div>
+                        <div class="flex-grow-1 me-4 mx-2 text-danger">
+                            Full Stack Development Skills
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center pt-3 pb-3 bg-light w-100 mt-1">
+                        <div class="flex-shrink-0">
+                            <img class="mx-2" src="images/training/wgang.png" style="max-width: 70px" alt="...">
+                        </div>
+                        <div class="flex-grow-1 me-4 my-4 mx-2 mt-0 text-danger">
+                            Daily Training Arrangement
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-1 ps-0 pe-1 d-none d-lg-block">
+                    <div class="w-100 bg-light h-100 pt-3 position-relative">
+<!--                        battery top-->
+                        <div class="battery_top" style="background: rgba(179,80,88,0.9)"></div>
+<!--                        battery body-->
+                        <div id="add1" class="battery_body shadow" style="border-color: rgba(179,80,88,0.9)">
+                            <div class="days small">120 level <br> Low Level</div>
+
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-3 col-12 ps-0 pe-1 overflow-auto" style="height: 210px; max-height: 210px">
+                    <div class="d-flex align-items-center py-3 pb-3 bg-light w-100">
+                        <div class="flex-grow-1 mx-2 text-white text-truncate">
+                            <p class="w-100 px-2 bg-danger"><a class="text-decoration-none text-white" href="#"> HTML & CSS & JavaScript</a></p>
+                            <div class="d-flex justify-content-between">
+                                <div class="text-black">▶ 158K</div>
+                                <div class="text-danger">★★★★★</div>
+                            </div>
+                        </div>
+                        <div class="flex-shrink-0">
+                            <img class="mx-1 mt-1" src="images/training/ray.png" style="max-width: 75px" alt="...">
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center pb-2 py-2 bg-light w-100 mt-1">
+                        <div class="flex-shrink-0">
+                            <img class="mx-1 mt-1" src="images/training/Tina.png" style="max-width: 75px" alt="...">
+                        </div>
+                        <div class="flex-grow-1 mx-2 text-white text-truncate">
+                            <p class="w-100 px-2 bg-danger"><a class="text-decoration-none text-white" href="#"> Bootstrap Framework Study</a></p>
+                            <div class="d-flex justify-content-between">
+                                <div class="text-black">▶ 109K</div>
+                                <div class="text-danger ">★★★★★</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center py-3 pb-3 bg-light w-100">
+                        <div class="flex-grow-1 mx-2 text-white text-truncate">
+                            <p class="w-100 px-2 bg-danger"><a class="text-decoration-none text-white" href="#"> jQuery Framework Study</a></p>
+                            <div class="d-flex justify-content-between">
+                                <div class="text-black">▶ 123K</div>
+                                <div class="text-danger">★★★★★</div>
+                            </div>
+                        </div>
+                        <div class="flex-shrink-0">
+                            <img class="mx-1 mt-1" src="images/training/ray.png" style="max-width: 75px" alt="...">
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center pb-2 py-2 bg-light w-100 mt-1">
+                        <div class="flex-shrink-0">
+                            <img class="mx-1 mt-1" src="images/training/Tina.png" style="max-width: 75px" alt="...">
+                        </div>
+                        <div class="flex-grow-1 mx-2 text-white text-truncate">
+                            <p class="w-100 px-2 bg-danger"><a class="text-decoration-none text-white" href="#"> AngularJS Study</a></p>
+                            <div class="d-flex justify-content-between">
+                                <div class="text-black">▶ 99K</div>
+                                <div class="text-danger ">★★★★★</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-12 ps-1 list-group list-group-flush" style="font-size: 14px">
+                    <div class="list-group-item list-group-item-success d-flex flex-row justify-content-between align-items-center p-3">
+                        <div class="w-50"> Full Stack Class I</div>
+                        <div class="w-50 me-2"> Begin from 30/08 </div>
+                        <div class="pt-2 pe-4 w-25">
+                            <a href="" class="bg-transparent mb-2  shadow-lg py-0 btn btn-sm text-primary fw-bold">
+                               Booking
+                            </a>
+                        </div>
+                    </div>
+                    <div class="list-group-item list-group-item-danger d-flex flex-row justify-content-between align-items-center p-3">
+                        <div class="w-50"> Full Stack Class II</div>
+                        <div class="w-50 me-2"> Begin from 30/10 </div>
+                        <div class="pt-2 pe-4 w-25">
+                            <a href="" class="bg-transparent mb-2  shadow-lg py-0 btn btn-sm text-primary fw-bold">
+                                Booking
+                            </a>
+                        </div>
+                    </div>
+                    <div class="list-group-item list-group-item-info d-flex flex-row justify-content-between align-items-center p-3">
+                        <div class="w-50"> Full Stack Class III</div>
+                        <div class="w-50 me-2"> Begin from 30/12 </div>
+                        <div class="pt-2 pe-4 w-25">
+                            <a href="" class="bg-transparent mb-2  shadow-lg py-0 btn btn-sm text-primary fw-bold">
+                                Booking
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+<!--        web develop class end-->
+<!--            java start-->
+            <div class="row mb-2 d-none d-lg-flex">
+                <div class="col-2 pe-1">
+                    <a href="#" class="d-block border-bottom border-light text-center bg-light w-100">
+                        <figure class="figure mt-1">
+                            <img src="images/training/java_icon.png" class="figure-img" style="max-width: 150px" alt="">
+                            <figcaption class="figure-caption text-center text-info">
+                                <h6> Java Developer</h6>
+                                <h6> Career Hub</h6>
+                            </figcaption>
+                        </figure>
+                    </a>
+                </div>
+                <div class="col-2 ps-0 pe-1">
+                    <div class="d-flex align-items-center py-3 pb-3 bg-light w-100">
+                        <div class="flex-shrink-0">
+                            <img class="mx-2" src="images/training/jline.png" style="max-width: 70px" alt="...">
+                        </div>
+                        <div class="flex-grow-1 ms-3 mx-2 text-info">
+                            Java course outline & study plan
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center pt-3 pb-3 bg-light w-100 mt-1">
+                        <div class="flex-shrink-0">
+                            <img class="mx-2" src="images/training/jgang.png" style="max-width: 70px" alt="...">
+                        </div>
+                        <div class="flex-grow-1 ms-3 my-4 mx-2 mt-0 text-info">
+                            Latest course system
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-1 ps-0 pe-1 d-none d-lg-block">
+                    <div class="w-100 bg-light h-100 pt-3 position-relative">
+                        <!--                        battery top-->
+                        <div class="battery_top" style="background:rgba(58,123,197,0.9);"></div>
+                        <!--                        battery body-->
+                        <div id="add2" class="battery_body shadow" style="border-color: rgba(58,123,197,0.9)">
+                            <div class="days small">120 level <br> Low Level</div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-3 ps-0 pe-1 overflow-auto" style="height: 210px; max-height: 210px">
+                    <div class="d-flex align-items-center py-3 pb-3 bg-light w-100">
+                        <div class="flex-grow-1 mx-2 text-white text-truncate">
+                            <p class="w-100 px-2 bg-info"><a class="text-decoration-none text-white" href="#"> Object Oriented Programming in Java </a></p>
+                            <div class="d-flex justify-content-between">
+                                <div class="text-black">▶ 133K</div>
+                                <div class="text-danger">★★★★★</div>
+                            </div>
+                        </div>
+                        <div class="flex-shrink-0">
+                            <img class="mx-1 mt-1" src="images/training/ray.png" style="max-width: 75px" alt="...">
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center pb-2 py-2 bg-light w-100 mt-1">
+                        <div class="flex-shrink-0">
+                            <img class="mx-1 mt-1" src="images/training/gaol.png" style="max-width: 75px" alt="...">
+                        </div>
+                        <div class="flex-grow-1 mx-2 text-white text-truncate">
+                            <p class="w-100 px-2 bg-info"><a class="text-decoration-none text-white" href="#"> Java Fundamentals by Pluralsight</a></p>
+                            <div class="d-flex justify-content-between">
+                                <div class="text-black">▶ 89K</div>
+                                <div class="text-danger ">★★★★★</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center py-3 pb-3 bg-light w-100">
+                        <div class="flex-grow-1 mx-2 text-white text-truncate">
+                            <p class="w-100 px-2 bg-info"><a class="text-decoration-none text-white" href="#"> Java Masterclass by Udemy</a></p>
+                            <div class="d-flex justify-content-between">
+                                <div class="text-black">▶ 58K</div>
+                                <div class="text-danger">★★★★★</div>
+                            </div>
+                        </div>
+                        <div class="flex-shrink-0">
+                            <img class="mx-1 mt-1" src="images/training/lamp.png" style="max-width: 75px" alt="...">
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center pb-2 py-2 bg-light w-100 mt-1">
+                        <div class="flex-shrink-0">
+                            <img class="mx-1 mt-1" src="images/training/mqwr.png" style="max-width: 75px" alt="...">
+                        </div>
+                        <div class="flex-grow-1 mx-2 text-white text-truncate">
+                            <p class="w-100 px-2 bg-info"><a class="text-decoration-none text-white" href="#"> AngularJS Study</a></p>
+                            <div class="d-flex justify-content-between">
+                                <div class="text-black">▶ 69K</div>
+                                <div class="text-danger ">★★★★★</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-4 ps-1 list-group list-group-flush" style="font-size: 14px">
+                    <div class="list-group-item list-group-item-success d-flex flex-row justify-content-between align-items-center p-3">
+                        <div class="w-50"> Java Class I</div>
+                        <div class="w-50 me-2"> Begin from 30/08 </div>
+                        <div class="pt-2 pe-4 w-25">
+                            <a href="" class="bg-transparent mb-2  shadow-lg py-0 btn btn-sm text-primary fw-bold">
+                                Booking
+                            </a>
+                        </div>
+                    </div>
+                    <div class="list-group-item list-group-item-danger d-flex flex-row justify-content-between align-items-center p-3">
+                        <div class="w-50"> Java Class II</div>
+                        <div class="w-50 me-2"> Begin from 30/10 </div>
+                        <div class="pt-2 pe-4 w-25">
+                            <a href="" class="bg-transparent mb-2  shadow-lg py-0 btn btn-sm text-primary fw-bold">
+                                Booking
+                            </a>
+                        </div>
+                    </div>
+                    <div class="list-group-item list-group-item-info d-flex flex-row justify-content-between align-items-center p-3">
+                        <div class="w-50"> Java Class III</div>
+                        <div class="w-50 me-2"> Begin from 30/12 </div>
+                        <div class="pt-2 pe-4 w-25">
+                            <a href="" class="bg-transparent mb-2  shadow-lg py-0 btn btn-sm text-primary fw-bold">
+                                Booking
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+<!--            java end-->
+<!--            php start-->
+            <div class="row mb-2 d-none d-lg-flex">
+                <div class="col-2 pe-1">
+                    <a href="#" class="d-block border-bottom border-light text-center bg-light w-100">
+                        <figure class="figure mt-1">
+                            <img src="images/training/php_ic.png" class="figure-img" style="max-width: 150px" alt="">
+                            <figcaption class="figure-caption text-center text-success">
+                                <h6> PHP Developer</h6>
+                                <h6> Career Hub</h6>
+                            </figcaption>
+                        </figure>
+                    </a>
+                </div>
+                <div class="col-2 ps-0 pe-1">
+                    <div class="d-flex align-items-center py-3 pb-3 bg-light w-100">
+                        <div class="flex-shrink-0">
+                            <img class="mx-2" src="images/training/pline.png" style="max-width: 70px" alt="...">
+                        </div>
+                        <div class="flex-grow-1 ms-3 mx-2 text-success">
+                            PHP course outline & study plan
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center pt-3 pb-3 bg-light w-100 mt-1">
+                        <div class="flex-shrink-0">
+                            <img class="mx-2" src="images/training/pgang.png" style="max-width: 70px" alt="...">
+                        </div>
+                        <div class="flex-grow-1 ms-3 my-4 mx-2 mt-0 text-success">
+                            Latest course system
+                        </div>
+                    </div>
+                </div>
+                <div class="col-1 ps-0 pe-1 d-none d-lg-block">
+                    <div class="w-100 bg-light h-100 pt-3 position-relative">
+                        <!--                        battery top-->
+                        <div class="battery_top" style="background:rgba(15,197,17,0.9)"></div>
+                        <!--                        battery body-->
+                        <div id="add3" class="battery_body shadow" style="border-color: rgba(15,197,17,0.9)">
+                            <div class="days small">120 level <br> Low Level</div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-3 ps-0 pe-1 overflow-auto" style="height: 210px; max-height: 210px">
+                    <div class="d-flex align-items-center py-3 pb-3 bg-light w-100">
+                        <div class="flex-grow-1 mx-2 text-white text-truncate">
+                            <p class="w-100 px-2 bg-success"><a class="text-decoration-none text-white" href="#"> Building Web Applications in PHP </a></p>
+                            <div class="d-flex justify-content-between">
+                                <div class="text-black">▶ 122K</div>
+                                <div class="text-success">★★★★★</div>
+                            </div>
+                        </div>
+                        <div class="flex-shrink-0">
+                            <img class="mx-1 mt-1" src="images/training/ray.png" style="max-width: 75px" alt="...">
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center pb-2 py-2 bg-light w-100 mt-1">
+                        <div class="flex-shrink-0">
+                            <img class="mx-1 mt-1" src="images/training/mqwr.png" style="max-width: 75px" alt="...">
+                        </div>
+                        <div class="flex-grow-1 mx-2 text-white text-truncate">
+                            <p class="w-100 px-2 bg-success"><a class="text-decoration-none text-white" href="#"> PHP with Laravel for Beginners</a></p>
+                            <div class="d-flex justify-content-between">
+                                <div class="text-black">▶ 102K</div>
+                                <div class="text-success ">★★★★★</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center py-3 pb-3 bg-light w-100">
+                        <div class="flex-grow-1 mx-2 text-white text-truncate">
+                            <p class="w-100 px-2 bg-success"><a class="text-decoration-none text-white" href="#"> Object-Oriented PHP Learning</a></p>
+                            <div class="d-flex justify-content-between">
+                                <div class="text-black">▶ 58K</div>
+                                <div class="text-success">★★★★★</div>
+                            </div>
+                        </div>
+                        <div class="flex-shrink-0">
+                            <img class="mx-1 mt-1" src="images/training/lamp.png" style="max-width: 75px" alt="...">
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center pb-2 py-2 bg-light w-100 mt-1">
+                        <div class="flex-shrink-0">
+                            <img class="mx-1 mt-1" src="images/training/Tina.png" style="max-width: 75px" alt="...">
+                        </div>
+                        <div class="flex-grow-1 mx-2 text-white text-truncate">
+                            <p class="w-100 px-2 bg-success"><a class="text-decoration-none text-white" href="#">Become a Master in Laravel</a></p>
+                            <div class="d-flex justify-content-between">
+                                <div class="text-black">▶ 69K</div>
+                                <div class="text-success ">★★★★★</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-4 ps-1 list-group list-group-flush" style="font-size: 14px">
+                    <div class="list-group-item list-group-item-success d-flex flex-row justify-content-between align-items-center p-3">
+                        <div class="w-50"> PHP Class I</div>
+                        <div class="w-50 me-2"> Begin from 30/08 </div>
+                        <div class="pt-2 pe-4 w-25">
+                            <a href="" class="bg-transparent mb-2  shadow-lg py-0 btn btn-sm text-primary fw-bold">
+                                Booking
+                            </a>
+                        </div>
+                    </div>
+                    <div class="list-group-item list-group-item-danger d-flex flex-row justify-content-between align-items-center p-3">
+                        <div class="w-50"> PHP Class II</div>
+                        <div class="w-50 me-2"> Begin from 30/10 </div>
+                        <div class="pt-2 pe-4 w-25">
+                            <a href="" class="bg-transparent mb-2  shadow-lg py-0 btn btn-sm text-primary fw-bold">
+                                Booking
+                            </a>
+                        </div>
+                    </div>
+                    <div class="list-group-item list-group-item-info d-flex flex-row justify-content-between align-items-center p-3">
+                        <div class="w-50"> PHP Class III</div>
+                        <div class="w-50 me-2"> Begin from 30/12 </div>
+                        <div class="pt-2 pe-4 w-25">
+                            <a href="" class="bg-transparent mb-2  shadow-lg py-0 btn btn-sm text-primary fw-bold">
+                                Booking
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+<!--            php end-->
+            <!-- content-->
+        </div>
+    </section>
+    <!---class_train-end-->
+
+
+    <!---internship-start-->
+    <section class="mt-4 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div>
+                        <h4 class="d-inline-block"> Internship Goal</h4>
+                        <small class="text-muted ps-2"> Arrange suitable intern position base on personal career development plan</small>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-2">
+                <div class="col-sm-12 col-md-6 mb-4">
+                    <div class="d-flex flex-column bg-white shadow">
+                        <div class="text-white d-flex flex-row bg-primary">
+                            <div class="me-auto pt-3 pb-2 ps-4"><h5><a class="text-white text-decoration-none" href="#">Java Developer</a></h5></div>
+                            <div class="pt-2"><a href="" class="bg-white bg-opacity-25 mt-1 btn border-white btn-sm text-white">Know More</a></div>
+                            <div class="p-2 pe-4"><a href="" class="bg-white bg-opacity-25 mt-1 btn border-white btn-sm text-white">Apply Position</a></div>
+                        </div>
+                        <div class="d-flex flex-row text-primary">
+                            <div class="flex-fill flex-column text-center col-4 fw-bold">
+                                <a href="#" class="d-block border-bottom border-light">
+                                    <figure class="figure mt-1">
+                                        <img src="images/goal/java_icon.png" class="figure-img" style="max-width: 150px" alt="">
+                                        <figcaption class="figure-caption text-center text-primary">Popular programming language
+                                            <br>Essential programming skill</figcaption>
+                                    </figure>
+                                </a>
+                                <a href="#" class="d-block">
+                                    <figure class="figure mt-1">
+                                        <img src="images/goal/jteam.png" class="figure-img" style="max-width: 150px" alt="">
+                                        <figcaption class="figure-caption text-center text-primary">Our professional project team</figcaption>
+                                    </figure>
+                                </a>
+                            </div>
+                            <div class="d-flex flex-fill flex-column col-3 fw-bold border-start border-light small">
+                                    <div class="d-flex align-items-center mx-3 my-3 pb-3">
+                                        <div class="flex-shrink-0">
+                                            <img class="me-1" src="images/goal/javait.png" style="max-width: 70px" alt="...">
+                                        </div>
+                                        <div class="flex-grow-1 ms-2 text-primary">
+                                            Skillful technique
+                                        </div>
+                                    </div>
+                                    <div class="d-flex align-items-center mx-3 my-3 pb-3">
+                                        <div class="flex-shrink-0">
+                                            <img class="me-1" src="images/goal/cwt.png" style="max-width: 70px" alt="...">
+                                        </div>
+                                        <div class="flex-grow-1 ms-2 text-primary">
+                                            Problem Solution
+                                        </div>
+                                    </div>
+                                    <div class="d-flex align-items-center mx-3 my-3 pb-3">
+                                        <div class="flex-shrink-0">
+                                            <img class="me-1" src="images/goal/cjob.png" style="max-width: 70px" alt="...">
+                                        </div>
+                                        <div class="flex-grow-1 ms-2 text-primary">
+                                            Professional Resume
+                                        </div>
+                                    </div>
+                            </div>
+                            <div class="flex-fill flex-column col-3 border-start border-light">
+                                <div class="text-center mt-2 pt-3">
+                                    <div class="rounded-circle bg-primary text-white border p-1 ms-5" style="font-size:14px;width: 100px">
+                                        From Basis<br>
+                                        For starter
+                                    </div>
+                                    <div>
+                                        <img class="mt-3 img-fluid" src="images/goal/Javajt.png" alt="">
+                                    </div>
+                                    <div class="rounded-lg bg-primary text-white mt-3 p-1 me-2" style="font-size: 14px">
+                                        Study + Internship <br> Professional Development
+                                    </div>
+                                    <div>
+                                        <img class="mt-3 img-fluid" src="images/goal/Javajt.png" alt="">
+                                    </div>
+                                    <figure class="figure mt-3">
+                                        <img src="images/goal/javajl.png" class="figure-img" style="max-width: 100px" alt="">
+                                        <figcaption class="figure-caption text-center text-primary fw-bold">Gain Offer</figcaption>
+                                    </figure>
+                                </div>
+
+
+                            </div>
+                        </div>
+                        <div class="bg-white text-center p-2">
+                            <img src="images/goal/java.png" class="img-fluid" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 mb-4">
+                    <div class="d-flex flex-column bg-white shadow">
+                        <div class="text-white d-flex flex-row bg-secondary">
+                            <div class="me-auto pt-3 pb-2 ps-4"><h5><a class="text-white text-decoration-none" href="#">PHP Developer</a></h5></div>
+                            <div class="pt-2"><a href="" class="bg-white bg-opacity-25 mt-1 btn border-white btn-sm text-white">Know More</a></div>
+                            <div class="p-2 pe-4"><a href="" class="bg-white bg-opacity-25 mt-1 btn border-white btn-sm text-white">Apply Position</a></div>
+                        </div>
+                        <div class="d-flex flex-row text-secondary">
+                            <div class="flex-fill flex-column text-center col-4 fw-bold">
+                                <a href="#" class="d-block border-bottom border-light">
+                                    <figure class="figure mt-1">
+                                        <img src="images/goal/php_icon.jpg" class="figure-img" style="max-width: 150px" alt="">
+                                        <figcaption class="figure-caption text-center text-secondary">Focus on process programming
+                                            <br>Backend Programming Language</figcaption>
+                                    </figure>
+                                </a>
+                                <a href="#" class="d-block">
+                                    <figure class="figure mt-1">
+                                        <img src="images/goal/jteam.png" class="figure-img" style="max-width: 150px" alt="">
+                                        <figcaption class="figure-caption text-center text-secondary">Our professional project team</figcaption>
+                                    </figure>
+                                </a>
+                            </div>
+                            <div class="d-flex flex-fill flex-column col-3 fw-bold border-start border-light small">
+                                <div class="d-flex align-items-center mx-3 my-3 pb-3">
+                                    <div class="flex-shrink-0">
+                                        <img class="me-1" src="images/goal/javait.png" style="max-width: 70px" alt="...">
+                                    </div>
+                                    <div class="flex-grow-1 ms-2 text-secondary">
+                                        Skillful technique
+                                    </div>
+                                </div>
+                                <div class="d-flex align-items-center mx-3 my-3 pb-3">
+                                    <div class="flex-shrink-0">
+                                        <img class="me-1" src="images/goal/cwt.png" style="max-width: 70px" alt="...">
+                                    </div>
+                                    <div class="flex-grow-1 ms-2 text-secondary">
+                                        Problem Solution
+                                    </div>
+                                </div>
+                                <div class="d-flex align-items-center mx-3 my-3 pb-3">
+                                    <div class="flex-shrink-0">
+                                        <img class="me-1" src="images/goal/cjob.png" style="max-width: 70px" alt="...">
+                                    </div>
+                                    <div class="flex-grow-1 ms-2 text-secondary">
+                                        Professional Resume
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flex-fill flex-column col-3 border-start border-light">
+                                <div class="text-center mt-2 pt-3">
+                                    <div class="rounded-circle bg-secondary text-white border p-1 ms-5" style="font-size:14px;width: 100px">
+                                        From Basis<br>
+                                        For starter
+                                    </div>
+                                    <div>
+                                        <img class="mt-3 img-fluid" src="images/goal/Javajt.png" alt="">
+                                    </div>
+                                    <div class="rounded-lg bg-secondary text-white mt-3 p-1 me-2" style="font-size: 14px">
+                                        Study + Internship <br> Professional Development
+                                    </div>
+                                    <div>
+                                        <img class="mt-3 img-fluid" src="images/goal/Javajt.png" alt="">
+                                    </div>
+                                    <figure class="figure mt-3">
+                                        <img src="images/goal/javajl.png" class="figure-img" style="max-width: 100px" alt="">
+                                        <figcaption class="figure-caption text-center text-secondary fw-bold">Gain Offer</figcaption>
+                                    </figure>
+                                </div>
+
+
+                            </div>
+                        </div>
+                        <div class="bg-white text-center p-2">
+                            <img src="images/goal/php.png" class="img-fluid" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 mb-4">
+                    <div class="d-flex flex-column bg-white shadow">
+                        <div class="text-white d-flex flex-row bg-danger">
+                            <div class="me-auto pt-3 pb-2 ps-4"><h5><a class="text-white text-decoration-none" href="#">Frontend Developer</a></h5></div>
+                            <div class="pt-2"><a href="" class="bg-white bg-opacity-25 mt-1 btn border-white btn-sm text-white">Know More</a></div>
+                            <div class="p-2 pe-4"><a href="" class="bg-white bg-opacity-25 mt-1 btn border-white btn-sm text-white">Apply Position</a></div>
+                        </div>
+                        <div class="d-flex flex-row text-danger">
+                            <div class="flex-fill flex-column text-center col-4 fw-bold">
+                                <a href="#" class="d-block border-bottom border-light">
+                                    <figure class="figure mt-1">
+                                        <img src="images/goal/h5_ic.png" class="figure-img" style="max-width: 150px" alt="">
+                                        <figcaption class="figure-caption text-center text-danger">Popular developing technique
+                                            <br>High demand of position</figcaption>
+                                    </figure>
+                                </a>
+                                <a href="#" class="d-block">
+                                    <figure class="figure mt-1">
+                                        <img src="images/goal/jteam.png" class="figure-img" style="max-width: 150px" alt="">
+                                        <figcaption class="figure-caption text-center text-danger">Our professional project team</figcaption>
+                                    </figure>
+                                </a>
+                            </div>
+                            <div class="d-flex flex-fill flex-column col-3 fw-bold border-start border-light small">
+                                <div class="d-flex align-items-center mx-3 my-3 pb-3">
+                                    <div class="flex-shrink-0">
+                                        <img class="me-1" src="images/goal/javait.png" style="max-width: 70px" alt="...">
+                                    </div>
+                                    <div class="flex-grow-1 ms-2 text-danger">
+                                        Skillful technique
+                                    </div>
+                                </div>
+                                <div class="d-flex align-items-center mx-3 my-3 pb-3">
+                                    <div class="flex-shrink-0">
+                                        <img class="me-1" src="images/goal/cwt.png" style="max-width: 70px" alt="...">
+                                    </div>
+                                    <div class="flex-grow-1 ms-2 text-danger">
+                                        Problem Solution
+                                    </div>
+                                </div>
+                                <div class="d-flex align-items-center mx-3 my-3 pb-3">
+                                    <div class="flex-shrink-0">
+                                        <img class="me-1" src="images/goal/cjob.png" style="max-width: 70px" alt="...">
+                                    </div>
+                                    <div class="flex-grow-1 ms-2 text-danger">
+                                        Professional Resume
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flex-fill flex-column col-3 border-start border-light">
+                                <div class="text-center mt-2 pt-3">
+                                    <div class="rounded-circle bg-danger text-white border p-1 ms-5" style="font-size:14px;width: 100px">
+                                        From Basis<br>
+                                        For starter
+                                    </div>
+                                    <div>
+                                        <img class="mt-3 img-fluid" src="images/goal/Javajt.png" alt="">
+                                    </div>
+                                    <div class="rounded-lg bg-danger text-white mt-3 p-1 me-2" style="font-size: 14px">
+                                        Study + Internship <br> Professional Development
+                                    </div>
+                                    <div>
+                                        <img class="mt-3 img-fluid" src="images/goal/Javajt.png" alt="">
+                                    </div>
+                                    <figure class="figure mt-3">
+                                        <img src="images/goal/javajl.png" class="figure-img" style="max-width: 100px" alt="">
+                                        <figcaption class="figure-caption text-center text-danger fw-bold">Gain Offer</figcaption>
+                                    </figure>
+                                </div>
+
+
+                            </div>
+                        </div>
+                        <div class="bg-white text-center p-2">
+                            <img src="images/goal/web.jpg" class="img-fluid" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 mb-4">
+                    <div class="d-flex flex-column bg-white shadow">
+                        <div class="text-white d-flex flex-row bg-info">
+                            <div class="me-auto pt-3 pb-2 ps-4"><h5><a class="text-white text-decoration-none" href="#">UI Designer + Project Manager</a></h5></div>
+                            <div class="pt-2"><a href="" class="bg-white bg-opacity-25 mt-1 btn border-white btn-sm text-white">Know More</a></div>
+                            <div class="p-2 pe-4"><a href="" class="bg-white bg-opacity-25 mt-1 btn border-white btn-sm text-white">Apply Position</a></div>
+                        </div>
+                        <div class="d-flex flex-row text-info">
+                            <div class="flex-fill flex-column text-center col-4 fw-bold">
+                                <a href="#" class="d-block border-bottom border-light">
+                                    <figure class="figure mt-1">
+                                        <img src="images/goal/ui_icon.jpg" class="figure-img" style="max-width: 150px" alt="">
+                                        <figcaption class="figure-caption text-center text-info">Essential talent for each company
+                                            <br>Design & Production</figcaption>
+                                    </figure>
+                                </a>
+                                <a href="#" class="d-block">
+                                    <figure class="figure mt-1">
+                                        <img src="images/goal/jteam.png" class="figure-img" style="max-width: 150px" alt="">
+                                        <figcaption class="figure-caption text-center text-info">Our professional project team</figcaption>
+                                    </figure>
+                                </a>
+                            </div>
+                            <div class="d-flex flex-fill flex-column col-3 fw-bold border-start border-light small">
+                                <div class="d-flex align-items-center mx-3 my-3 pb-3">
+                                    <div class="flex-shrink-0">
+                                        <img class="me-1" src="images/goal/uiit.png" style="max-width: 70px" alt="...">
+                                    </div>
+                                    <div class="flex-grow-1 ms-2 text-info">
+                                        Skillful technique
+                                    </div>
+                                </div>
+                                <div class="d-flex align-items-center mx-3 my-3 pb-3">
+                                    <div class="flex-shrink-0">
+                                        <img class="me-1" src="images/goal/cwt.png" style="max-width: 70px" alt="...">
+                                    </div>
+                                    <div class="flex-grow-1 ms-2 text-info">
+                                        Problem Solution
+                                    </div>
+                                </div>
+                                <div class="d-flex align-items-center mx-3 my-3 pb-3">
+                                    <div class="flex-shrink-0">
+                                        <img class="me-1" src="images/goal/cjob.png" style="max-width: 70px" alt="...">
+                                    </div>
+                                    <div class="flex-grow-1 ms-2 text-info">
+                                        Professional Resume
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flex-fill flex-column col-3 border-start border-light">
+                                <div class="text-center mt-2 pt-3">
+                                    <div class="rounded-circle bg-info text-white border p-1 ms-5" style="font-size:14px;width: 100px">
+                                        From Basis<br>
+                                        For starter
+                                    </div>
+                                    <div>
+                                        <img class="mt-3 img-fluid" src="images/goal/Javajt.png" alt="">
+                                    </div>
+                                    <div class="rounded-lg bg-info text-white mt-3 p-1 me-2" style="font-size: 14px">
+                                        Study + Internship <br> Professional Development
+                                    </div>
+                                    <div>
+                                        <img class="mt-3 img-fluid" src="images/goal/Javajt.png" alt="">
+                                    </div>
+                                    <figure class="figure mt-3">
+                                        <img src="images/goal/javajl.png" class="figure-img" style="max-width: 100px" alt="">
+                                        <figcaption class="figure-caption text-center text-info fw-bold">Gain Offer</figcaption>
+                                    </figure>
+                                </div>
+
+
+                            </div>
+                        </div>
+                        <div class="bg-white text-center p-2">
+                            <img src="images/goal/ui.jpg" class="img-fluid" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!---internship-end-->
+
+    <!---supervisor-internship-start-->
+    <section class="mt-4" >
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div>
+                        <h4 class="d-inline-block"> Your Supervisor</h4>
+                        <small class="text-muted ps-2"> Both your tutor and your project supervisor</small>
+                    </div>
+                </div>
+            </div>
+            <div class="row d-none d-lg-block">
+                <div class="col">
+                    <div class="card w-100 text-white border-0 supervisor-card">
+                        <img src="images/supervisor/cwbg.png" class="card-img shadow-lg" alt="">
+                        <div class="card-img-overlay d-flex flex-row">
+                            <div class="w-25 me-5">
+                                <img id="teacher_pic" src="images/supervisor/ray.png" class="img-fluid supervisor-img" alt="">
+                            </div>
+                            <div class="w-75">
+                                <div class="card-title"><h4 id="teacher-name">Ray Wen</h4></div>
+                                <div class="card-subtitle"><h5 id="teacher-title">Webumate Senior Backend Developer & Easi IT Education Director</h5></div>
+                                <div class="card-text" id="teacher-desc">This is Ray, who graduated from the Australian National University. As a Bachelor of Mathematics and Master of Computing, I have a clear and deep understanding of the principles of programming, which give me the ability to analyze and refactor codes and make them more efficient. I worked as a programming teacher focusing on Java education three years ago and then I came to Australia to pursue a higher degree. I also have the experience of working as a full-stack web developer for a company to maintain, optimize, and add new features to their company. It is my pleasure to help our people build and improve their websites and I will do my best to satisfy our business partners.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row mt-5">
+                <div class="col-12 col-sm-6 col-lg-3 teacher" data-i= "1">
+                    <div class="card text-center">
+                        <div class="card-img">
+                            <img src="images/supervisor/leo.jpg" class="img-fluid" alt="">
+                        </div>
+
+                        <div class="card-body card-text-style">
+                            Webumate Senior Backend Developer <br> Easi IT Education Director
+                        </div>
+
+                        <div class="card-footer">
+                            <h6><strong> Ray Wen</strong></h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3 teacher" data-i= "2">
+                    <div class="card text-center">
+                        <div class="card-img">
+                            <img src="images/supervisor/sun.png" class="img-fluid" alt="">
+                        </div>
+
+                        <div class="card-body card-text-style">
+                            Product Manager<br>Senior Technical Lecturer
+                        </div>
+
+                        <div class="card-footer">
+                            <h6><strong>Larry Liang</strong></h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3 teacher" data-i= "3">
+                    <div class="card text-center">
+                        <div class="card-img">
+                            <img src="images/supervisor/tina.jpg" class="img-fluid" alt="">
+                        </div>
+
+                        <div class="card-body card-text-style">
+                           Easi Education CTO<br>Senior Technical Lecturer
+                        </div>
+
+                        <div class="card-footer">
+                            <h6><strong> Tina </strong></h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3 teacher " data-i= "4">
+                    <div class="card text-center">
+                        <div class="card-img">
+                            <img src="images/supervisor/xiong.png" class="img-fluid" alt="">
+                        </div>
+
+                        <div class="card-body card-text-style">
+                           Easi Education Director <br> Senior Technical Lecturer
+                        </div>
+
+                        <div class="card-footer">
+                            <h6><strong> Ben Xiong</strong></h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!---supervisor-end-->
+
+    <!---training_compare-start-->
+    <section class="mt-4">
+        <div class="container" id="pk">
+            <div class="row">
+                <div class="col">
+                    <div>
+                        <h4 class="d-inline-block"> Compare to traditional training</h4>
+                        <small class="text-muted ps-2"> Practice makes prefect</small>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col">
+                    <div class="bg-light text-end pe-3 py-3 rounded-3 text h4"> (Modern) Internship Model </div>
+                </div>
+                <div class="col-3">
+                    <div class="h1 text-center bg-light rounded-3 shadow mt-2">
+                        <b class="text-danger me-2">P</b><b class="text-dark ms-2">K</b>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="bg-light text-start ps-3 py-3 rounded-3 text h4"> (Traditional) Class Model </div>
+                </div>
+            </div>
+            <div class="row my-1 pt-2">
+                <div class="col">
+                <!-- Process bar-->
+                    <div class="bg-light w-100 progress" style="height: 45px" >
+                        <div class="progress-bar bg-light text-danger text-end pe-3" style="width: 20%;">
+                            <b>80</b>
+                        </div>
+                        <div class="h-100 progress-bar bg-danger progress-bar-striped progress-bar-animated text-end pe-3 h6" style="width: 80%;">
+                            Gain enough work experience in intern
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="rounded-3 h5 text-center shadow-sm p-2 bg-light"> Career Experience</div>
+                </div>
+                <div class="col">
+                    <div class="bg-light w-100 progress" style="height: 50px" >
+                        <div class="h-100 progress-bar bg-dark progress-bar-striped text-start ps-3 h6" style="width: 20%;">
+                            No
+                        </div>
+                        <div class="progress-bar bg-light text-dark text-start ps-3" style="width: 80%;" >
+                            <b>0</b>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="row my-1 pt-2">
+                <div class="col">
+                    <!-- Process bar-->
+                    <div class="bg-light w-100 progress" style="height: 45px" >
+                        <div class="progress-bar bg-light text-danger text-end pe-3" style="width: 30%;">
+                            <b>70</b>
+                        </div>
+                        <div class="h-100 progress-bar bg-danger progress-bar-striped progress-bar-animated text-end pe-3 h6" style="width: 70%;">
+                            At least two real business project
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="rounded-3 h5 text-center shadow-sm p-2 bg-light"> Project Experience</div>
+                </div>
+                <div class="col">
+                    <div class="bg-light w-100 progress" style="height: 50px" >
+                        <div class="h-100 progress-bar bg-dark progress-bar-striped text-start ps-3 h6" style="width: 40%;">
+                            Visualize project
+                        </div>
+                        <div class="progress-bar bg-light text-dark text-start ps-3" style="width: 70%;" >
+                            <b>30</b>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="row my-1 pt-2">
+                <div class="col">
+                    <!-- Process bar-->
+                    <div class="bg-light w-100 progress" style="height: 45px" >
+                        <div class="progress-bar bg-light text-danger text-end pe-3" style="width: 40%;">
+                            <b>60</b>
+                        </div>
+                        <div class="h-100 progress-bar bg-danger progress-bar-striped progress-bar-animated text-end pe-3 h6" style="width: 60%;">
+                            Professional HR mock interview
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="rounded-3 h5 text-center shadow-sm p-2 bg-light"> Interview Experience</div>
+                </div>
+                <div class="col">
+                    <div class="bg-light w-100 progress" style="height: 50px" >
+                        <div class="h-100 progress-bar bg-dark progress-bar-striped text-start ps-3 h6" style="width: 30%;">
+                            Exaggerated resume
+                        </div>
+                        <div class="progress-bar bg-light text-dark text-start ps-3" style="width: 70%;" >
+                            <b>25</b>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="row my-1 pt-2">
+                <div class="col">
+                    <!-- Process bar-->
+                    <div class="bg-light w-100 progress" style="height: 45px" >
+                        <div class="progress-bar bg-light text-danger text-end pe-3" style="width: 15%;">
+                            <b>85</b>
+                        </div>
+                        <div class="h-100 progress-bar bg-danger progress-bar-striped progress-bar-animated text-end pe-3 h6" style="width: 85%;">
+                            Customized and effective study plan for individual
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="rounded-3 h5 text-center shadow-sm p-2 bg-light"> Teaching Process</div>
+                </div>
+                <div class="col">
+                    <div class="bg-light w-100 progress" style="height: 50px" >
+                        <div class="h-100 progress-bar bg-dark progress-bar-striped text-start ps-3 h6" style="width: 70%;">
+                            General teaching model without focus
+                        </div>
+                        <div class="progress-bar bg-light text-dark text-start ps-3" style="width: 30%;" >
+                            <b>65</b>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="row my-1 pt-2">
+                <div class="col">
+                    <!-- Process bar-->
+                    <div class="bg-light w-100 progress" style="height: 45px" >
+                        <div class="progress-bar bg-light text-danger text-end pe-3" style="width: 25%;">
+                            <b>70</b>
+                        </div>
+                        <div class="h-100 progress-bar bg-danger progress-bar-striped progress-bar-animated text-end pe-3 h6" style="width: 75%;">
+                            Professional teacher & Senior web developer
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="rounded-3 h5 text-center shadow-sm p-2 bg-light"> Teacher Qualification</div>
+                </div>
+                <div class="col">
+                    <div class="bg-light w-100 progress" style="height: 50px" >
+                        <div class="h-100 progress-bar bg-dark progress-bar-striped text-start ps-3 h6" style="width: 60%;">
+                            Good teacher but not developer
+                        </div>
+                        <div class="progress-bar bg-light text-dark text-start ps-3" style="width: 40%;" >
+                            <b>50</b>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="row my-1 pt-2">
+                <div class="col">
+                    <!-- Process bar-->
+                    <div class="bg-light w-100 progress" style="height: 45px" >
+                        <div class="progress-bar bg-light text-danger text-end pe-3" style="width: 5%;">
+                            <b>90</b>
+                        </div>
+                        <div class="h-100 progress-bar bg-danger progress-bar-striped progress-bar-animated text-end pe-3 h6" style="width: 95%;">
+                            Focus on problem solving ability in real business project
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="rounded-3 h5 text-center shadow-sm p-2 bg-light"> Technology Solution</div>
+                </div>
+                <div class="col">
+                    <div class="bg-light w-100 progress" style="height: 50px" >
+                        <div class="h-100 progress-bar bg-dark progress-bar-striped text-start ps-3 h6" style="width: 60%;">
+                            Theoretical knowledge in book
+                        </div>
+                        <div class="progress-bar bg-light text-dark text-start ps-3" style="width: 40%;" >
+                            <b>50</b>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="row my-1 pt-2">
+                <div class="col">
+                    <!-- Process bar-->
+                    <div class="bg-light w-100 progress" style="height: 45px" >
+                        <div class="progress-bar bg-light text-danger text-end pe-3" style="width: 15%;">
+                            <b>90</b>
+                        </div>
+                        <div class="h-100 progress-bar bg-danger progress-bar-striped progress-bar-animated text-end pe-3 h6" style="width: 85%;">
+                            Multiple career direction base on study progress
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="rounded-3 h5 text-center shadow-sm p-2 bg-light"> Career Direction</div>
+                </div>
+                <div class="col">
+                    <div class="bg-light w-100 progress" style="height: 50px" >
+                        <div class="h-100 progress-bar bg-dark progress-bar-striped text-start ps-3 h6" style="width: 40%;">
+                            Limited direction
+                        </div>
+                        <div class="progress-bar bg-light text-dark text-start ps-3" style="width: 60%;" >
+                            <b>40</b>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!---training_compare-end-->
+
+    <!---environment-start-->
+    <section class="mt-4">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div>
+                        <h4 class="d-inline-block"> Working Environment</h4>
+                        <small class="text-muted ps-2"> Integrative environment for your study, work and life</small>
+                    </div>
+                </div>
+            </div>
+            <div class="row d-none d-lg-block">
+                <div class="col">
+                    <div class="box">
+                        <div class="box_list"><img src="images/swiper/t1.jpeg"  alt="swiper"></div>
+                        <div class="swiper_pc"><img src="images/swiper/t2.jpg" alt="swiper"></div>
+                        <div class="swiper_pc"><img src="images/swiper/t3.png" alt="swiper"></div>
+                        <div class="swiper_pc"><img src="images/swiper/t4.jpg" alt="swiper"></div>
+                        <div class="swiper_pc"><img src="images/swiper/t5.png" alt="swiper"></div>
+                        <div class="swiper_pc"><img src="images/swiper/t6.jpg" alt="swiper"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row d-lg-none">
+                <div class="col">
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide"><img src="images/swiper/t1.jpeg" alt="swiper"></div>
+                            <div class="swiper-slide"><img src="images/swiper/t2.jpg" alt="swiper"></div>
+                            <div class="swiper-slide"><img src="images/swiper/t3.png" alt="swiper"></div>
+                            <div class="swiper-slide"><img src="images/swiper/t4.jpg" alt="swiper"></div>
+                            <div class="swiper-slide"><img src="images/swiper/t5.png" alt="swiper"></div>
+                            <div class="swiper-slide"><img src="images/swiper/t6.jpg" alt="swiper"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!---environment-end-->
+
+    <!--footer-start-->
+    <footer class="mt-4 bg-dark text-light small">
+        <div class="container">
+            <div class="row pt-3 pb-5">
+                <div class="col-sm-12 col-md-10">
+                    <div>
+                        <p class="mb-2 d-none d-lg-block">EasiEdu is the first IT training organization in Canberra, focus on both theoretical knowledge and practical experience.</p>
+                    </div>
+                    <ul class="nav">
+                        <li class="nav-item"><a class="nav-link text-white ps-0" href="">About us</a></li>
+                        <li class="nav-item"><a class="nav-link text-white ps-0" href="">Contact us</a></li>
+                        <li class="nav-item"><a class="nav-link text-white ps-0" href="">Join us</a></li>
+                        <li class="nav-item"><a class="nav-link text-white ps-0" href="">Support center</a></li>
+                        <li class="nav-item"><a class="nav-link text-white ps-0" href="">Class recording</a></li>
+                        <li class="nav-item"><a class="nav-link text-white ps-0" href="">Career Opportunity</a></li>
+                    </ul>
+                    <div class="text-muted mt-2">
+                        © <i>2020-2021</i> EASI Education. Website by Larry
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-2 text-md-right text-center">
+                    <figure class="figure mt-1">
+                        <img src="images/wechat_barcode.jpg" class="figure-img img-thumbnail" style="max-width: 100px" alt="">
+                        <figcaption class="figure-caption text-center text-light">Follow Us</figcaption>
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--footer-end-->
+
+
+<script src="node_modules/jquery/dist/jquery.js"></script>
+<script src="node_modules/@popperjs/core/dist/umd/popper.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+<script src="node_modules/swiper/swiper-bundle.js"></script>
+<script src="IT_education.js"></script>
+</body>
+</html>

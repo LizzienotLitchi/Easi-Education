@@ -1,0 +1,193 @@
+/*nav_css start*/
+.bg-nav{
+    background-color: rgba(255,251,240,0.82);
+}
+
+.nav-item:hover{
+    background-color: rgba(214,214,214,0.8);
+}
+
+.contact{
+    cursor: pointer;
+}
+
+.contact a, a:link, a:visited, a:active{
+    text-decoration: none;
+}
+
+/*nav_css end*/
+
+/*carousel strat*/
+.carousel-bg{
+    background-color: #6a296e;
+}
+
+.card-style{
+    font-size: 15px;
+    line-height: 25px;
+
+}
+
+.bi-caret-right-fill::before{
+    margin-right: 6px;
+}
+
+.no-select{
+    color: #aaa;
+}
+/*carousel end*/
+
+/*swiper environment*/
+.swiper-slide > img{
+    width:679px ;
+    height:437px;
+}
+
+.box{
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+}
+
+.box > div {
+    border-radius: 10px;
+    transition: all 0.3s ease-out;
+}
+
+.box > .swiper_pc{
+    overflow: hidden;
+    width: 200px;
+    height: 400px;
+}
+
+.swiper_pc > img{
+    width: 500px;
+    height: 400px;
+}
+
+.box_list{
+    width: 500px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.box_list > img{
+    width: 500px;
+    height: 400px;
+}
+/*working environment swiper end*/
+
+/*Gain start*/
+.gain_style{
+    height: 120px;
+    line-height: 120px;
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 8px #999;
+    background-color: rgba(0,0,0,0.2);
+}
+
+
+
+.gain_style:active {
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.gain_style h5{
+    text-shadow: 3px 3px 2px #000000 ;
+}
+
+.gain_style_1{
+    background: url("images/gain/h1.jpg");
+}
+
+.gain_style_2{
+    background: url("images/gain/h2.jpg");
+}
+
+.gain_style_3{
+    background: url("images/gain/h3.jpg");
+}
+
+.gain_style_4{
+    background: url("images/gain/h4.jpg");
+}
+
+.gain_style_5{
+    background: url("images/gain/h5.jpg");
+}
+
+.gain_style_6{
+    background: url("images/gain/h6.jpg");
+}
+.gain_style_2{
+    background: url("images/gain/h2.jpg");
+}
+
+/*gain end*/
+
+/*follow start*/
+
+/*follow end*/
+
+/*Supervisor start*/
+.supervisor-card{
+    margin-top: 180px;
+}
+
+.supervisor-img{
+    margin-top: -170px;
+}
+
+.card-text-style{
+    font-size: 14px ;
+}
+
+/*Supervisor end*/
+
+/*training start*/
+.battery_top{
+    width: 20px;
+    height: 10px;
+    margin: 0 auto;
+}
+
+.battery_body{
+    width: 80px;
+    height: 133px;
+    margin: 0 auto;
+    border: 3px solid;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.days{
+    position: absolute;
+    z-index: 99;
+    width: 74px;
+    height: 40px;
+    top:60px;
+    text-align: center;
+    background: rgba(120,120,120,0.4);
+}
+
+.charge{
+    width:68px;
+    height: 8px;
+    margin: 0 auto;
+    background-color: #ba8b00;
+    opacity: 0.6;
+}
+
+.charge_block{
+    width: 68px;
+    height: 2px;
+    margin: 0 auto;
+}
+/*training end*/
